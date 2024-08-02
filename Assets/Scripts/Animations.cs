@@ -44,7 +44,7 @@ public class Animations : MonoBehaviour
 
     public void JackpotFate()
     {
-        gameplay.playerScore += 30;
+        gameplay.playerScore += 10;
         machine_animator.SetTrigger("JACKPOT");
         gameplay.UpdateScoreText();
         StartCoroutine(PlayHappyReactionWithDelay());

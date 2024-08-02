@@ -115,6 +115,6 @@ public class GamePlay : MonoBehaviour
     public void UpdateScoreText()
     {
         // Обновляем TextMeshPro текстовое поле значением текущего счета
-        scoreTextTMP.text = "Money: " + playerScore.ToString();
+        scoreTextTMP.text = playerScore.ToString();
     }
 }
